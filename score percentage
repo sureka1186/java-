@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class main{
+    public static void main(String args[])
+    {
+        Scanner in=new Scanner(System.in);
+        String name=in.nextLine();
+        double score=in.nextInt();
+        in.nextLine();
+        String dept=in.nextLine();
+        System.out.println("my Name is "+ name);
+        System.out.println("my Score is "+ score);
+        System.out.println("my dept is "+ dept);
+        System.out.print("my percentage is "+ score/10);
+            
+    }
+}
